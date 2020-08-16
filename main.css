@@ -1,0 +1,272 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+}
+
+.main {
+  background-color:hsl(270, 20%, 96%);
+}
+
+.purple {
+ background-image:linear-gradient(-150deg, hsl(293, 100%, 63%), hsl(264, 100%,61%));
+  width: 40%;
+  height: 500px;
+  border-radius: 0 0 270px 0;
+}
+
+.mobile {
+  background-color: hsl(0, 0%, 100%);
+  margin-left: 3em;
+  margin-right: 3em;
+  position: absolute;
+  z-index: 10;
+  top: 3em;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  width: 80%;
+  height: 530px;
+  box-shadow: 0 10px 20px;
+}
+
+.mobile-main {
+  background-color: hsl(270, 20%, 96%);
+  border-radius: 18px;
+  padding-bottom: 1em;
+  height: 500px;
+}
+
+.purple-gradient {
+  background-image:linear-gradient(to right, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  margin-left: 0;
+  height: 80px;
+  border-radius: 18px 18px 0 0;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.white {
+  background-color: hsl(0, 0%, 100%);
+  height: 25px;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 1em;
+  border-radius: 0 0 20px 20px;
+}
+
+.heading {
+  width: 10%;
+  border-radius: 35px;
+  top: 3.5em;
+  left: 3em;
+  z-index: 10;
+  position: absolute;
+  border: 1px solid white;
+  margin-bottom: 1em;
+}
+
+h4 {
+  color: white;
+  margin-top: 2px;
+  margin-left: 9px;
+}
+
+#heading{
+  color: hsl(276, 100%, 81%);
+  font-size: 10px;
+  margin-bottom: 1em;
+  margin-left: 2px;
+  
+}
+
+.left1 {
+  width: 50%;
+  height: 30px;
+  background-color: hsl(272, 46%, 93%);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.chat {
+  text-align: left;
+  font-size: 10px;
+  color: hsl(276, 55%, 52%);
+  line-height: 10px;
+}
+
+.left2 {
+  width: 50%;
+  height: 40px;
+  background-color: hsl(272, 46%, 93%);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.left3 {
+  width: 60%;
+  height: 50px;
+  background-color: hsl(272, 46%, 93%);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+.left4 {
+  width: 70%;
+  height: 30px;
+  background-image:linear-gradient(to left, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  padding-top: 10px;
+}
+
+#l01 {
+  font-size: 6px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 1em;
+}
+
+#l02 {
+  margin-left: 5em;
+  font-size: 12px;
+  color: white;
+}
+
+.left5 {
+  width: 70%;
+  height: 30px;
+  background-image:linear-gradient(to left, hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  padding-top: 10px;
+}
+
+#l03 {
+  font-size: 6px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 1em;
+}
+
+#l04 {
+  margin-left: 5em;
+  font-size:12px;
+  color: white;
+}
+
+#Type {
+  margin-left: 1em;
+  font-size: 6px;
+  margin-top: 8px;
+}
+
+button {
+  background-color:hsl(271, 36%, 24%);
+  color: whitesmoke;
+  border-radius: 1px solid hsl(289, 100%, 72%);
+  width: 10%;
+  height: 20px;
+  margin-left: 8em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.left6 {
+  width: 90%;
+  height: 30px;
+  background-color: hsl(206, 6%, 79%);
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  display: flex;
+}
+
+.right1{
+  width: 55%;
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  margin-left: 6em;
+
+}
+
+.chatright{
+  text-align: left;
+  font-size: 10px;
+  color: hsl(271, 15%, 43%);
+  line-height: 10px;
+}
+
+.right2{
+  width: 40%;
+  height: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  margin-left: 8em;
+
+}
+
+.images {
+  display: flex;
+  width: 80px;
+  margin-left: 5.5em;
+  margin-top: 2em;
+}
+
+.images > img {
+  width: 45%;
+  height: 40px;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.section {
+  margin-top: 8em;
+}
+
+h2 {
+  text-align: center;
+}
+
+#article{
+  margin-top: 1em;
+  padding-bottom: 3em;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: hsl(273, 7%, 64%);
+}
+
+.menu-dots{
+  position: relative;
+  height: 40px;
+}
+
+.menu-dots span {
+  content: '';
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  top: 10px;
+  left: 0;
+  cursor: pointer;
+}
